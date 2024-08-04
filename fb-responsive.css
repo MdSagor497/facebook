@@ -1,0 +1,343 @@
+/* ------Responsive For Laptop-------- */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+
+    #content-area {
+        padding: 65px 0;
+        width: 90%;
+    }
+
+    .left-side {
+        flex-basis: 88%;
+        text-align: left;
+    }
+
+    .left-side .logo {
+        font-size: 85px;
+        margin-top: -70px;
+    }
+
+    .left-side h2 {
+        font-size: 20px;
+    }
+
+    .form-area input {
+        font-size: 15px;
+    }
+
+    .form-area input[type="button"] {
+        font-size: 17px;
+    }
+
+    .form-area a {
+        font-size: 13px;
+    }
+
+    .form-area button[type="button"] {
+        font-size: 15px;
+    }
+
+    .form-area p {
+        font-size: 12px;
+    }
+
+    #footer-area ul {
+        text-align: center;
+    }
+
+    #footer-area p {
+        text-align: center;
+    }
+}
+
+
+/* ------Responsive For Big Tablet---- */
+@media screen and (max-width: 884px) {
+    .left-side .logo {
+        font-size: 75px;
+    }
+
+    .left-side h2 {
+        font-size: 18px;
+    }
+
+    .form-area form {
+        margin-bottom: 20px;
+    }
+
+    .form-area .a-2 {
+        margin-bottom: 4px;
+    }
+
+    .form-area input {
+        font-size: 14px;
+    }
+
+    .form-area input[type="button"] {
+        font-size: 16px;
+    }
+
+    .form-area button[type="button"] {
+        font-size: 14px;
+    }
+
+    #footer-area ul li a {
+        font-size: 13px;
+    }
+}
+
+/* ----Responsive For Medium Tablet---- */
+@media screen and (max-width: 740px) {
+    .left-side .logo {
+        font-size: 55px;
+    }
+
+    .left-side h2 {
+        font-size: 17px;
+    }
+
+    .form-area input {
+        font-size: 13px;
+    }
+
+    .form-area input[type="button"] {
+        font-size: 14px;
+    }
+
+    .form-area button[type="button"] {
+        font-size: 13px;
+    }
+}
+
+
+/* ---Responsive For M-Tablet--- */
+@media screen and (max-width: 657px) {
+    #footer-area ul li a {
+        font-size: 11px;
+    }
+
+    .form-area input {
+        font-size: 12px;
+    }
+
+    .form-area p .a-2 {
+        font-size: 12px;
+    }
+}
+
+
+/* ---Responsive For Small Tablet--- */
+@media screen and (max-width: 584px) {
+    .left-side .logo {
+        font-size: 50px;
+    }
+
+    .left-side h2 {
+        font-size: 15px;
+    }
+
+    .form-area input {
+        font-size: 11px;
+    }
+
+    .form-area input[type="button"] {
+        font-size: 12px;
+    }
+
+    .form-area a {
+        font-size: 11px;
+    }
+
+    .form-area button[type="button"] {
+        font-size: 11px;
+    }
+
+    .form-area p .a-2 {
+        font-size: 11px;
+    }
+
+    .form-area p {
+        font-size: 10px;
+    }
+
+    #footer-area ul li a {
+        font-size: 10px;
+    }
+}
+
+
+/* ------Responsive For Mobile-------- */
+@media screen and (max-width:520px) {
+    .container {
+        width: 96%;
+    }
+
+    #content-area {
+        flex-direction: column;
+        padding: 35px 0;
+        width: 95%;
+    }
+
+    .left-side {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .left-side .logo {
+        font-size: 55px;
+        margin-bottom: 8px;
+        margin-top: 5px;
+    }
+
+    .left-side h2 {
+        font-size: 18px;
+        padding: 0 55px 0 55px;
+        margin-bottom: 40px;
+    }
+
+    .form-area {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .form-area p {
+        font-size: 12px;
+    }
+
+    #footer-area ul li a {
+        font-size: 9px;
+    }
+
+    #footer-area {
+        padding: 0px 0;
+    }
+}
+
+/* ----Responsive For Small Mobile---- */
+@media screen and (max-width: 356px) {
+    .left-side .logo {
+        margin-top: 5px;
+    }
+
+    .left-side h2 {
+        font-size: 17px;
+        padding: 0 40px 0 40px;
+        margin-bottom: 40px;
+    }
+}
+
+/* ----Responsive For Small Mobile---- */
+@media screen and (max-width: 320px) {
+    .left-side .logo {
+        font-size: 53px;
+        margin-top: 5px;
+    }
+
+    .left-side h2 {
+        font-size: 16px;
+        padding: 0 30px 0 30px;
+        margin-bottom: 35px;
+    }
+}
+
+
+/* ----Responsive For Small Mobile---- */
+@media screen and (max-width: 287px) {
+    #content-area {
+        width: 90%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .left-side .logo {
+        font-size: 47px;
+    }
+
+    .left-side h2 {
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+        margin-bottom: 35px;
+    }
+
+    .form-area input[type="button"] {
+        font-size: 10px;
+    }
+
+    .form-area a {
+        font-size: 10px;
+    }
+
+    .form-area button[type="button"] {
+        font-size: 10px;
+    }
+
+    .form-area input {
+        font-size: 9px;
+    }
+
+    .form-area p .a-2 {
+        font-size: 9px;
+    }
+
+    .form-area p {
+        font-size: 9px;
+    }
+
+    #footer-area ul li a {
+        font-size: 8px;
+    }
+
+    #footer-area p {
+        text-align: center;
+        font-size: 9px;
+    }
+}
+
+/* ----Responsive For Small Mobile---- */
+@media screen and (max-width: 220px) {
+    .left-side .logo {
+        font-size: 37px;
+    }
+
+    .left-side h2 {
+        font-size: 10px;
+        padding: 0 5px 0 5px;
+        margin-bottom: 35px;
+    }
+
+    .form-area input {
+        font-size: 8px;
+    }
+
+    .form-area input[type="button"] {
+        font-size: 8px;
+    }
+
+    .form-area a {
+        font-size: 8px;
+    }
+
+    .form-area button[type="button"] {
+        font-size: 8px;
+    }
+
+    .form-area p .a-2 {
+        font-size: 8px;
+    }
+
+    .form-area p {
+        font-size: 8px;
+    }
+
+    #footer-area ul li a {
+        font-size: 7px;
+    }
+
+    #footer-area p {
+        font-size: 8px;
+    }
+}
